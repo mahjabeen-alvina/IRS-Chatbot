@@ -1,0 +1,16 @@
+# --- Core app dependencies ---
+streamlit==1.50.0
+python-dotenv
+google-generativeai==0.8.5
+
+# --- NLP / Embeddings ---
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# --- Utilities ---
+PyMuPDF==1.24.4
+numpy<2
+pandas
+protobuf==4.25.3
+tqdm
+typing-extensions
