@@ -4,7 +4,6 @@ python-dotenv
 google-generativeai==0.8.5
 
 # --- NLP / Embeddings ---
-sentence-transformers==2.2.2
 faiss-cpu==1.7.4
 
 # --- Utilities ---
@@ -14,3 +13,8 @@ pandas
 protobuf==4.25.3
 tqdm
 typing-extensions
+
+sentence-transformers==2.7.0
+huggingface-hub==0.23.0
+transformers==4.40.0
+torch==2.3.0
