@@ -1,5 +1,5 @@
 # --- Core app dependencies ---
-streamlit
+streamlit==1.50.0
 python-dotenv
 google-generativeai
 
@@ -28,3 +28,4 @@ ERROR: Could not find a version that satisfies the requirement torch==2.0.1
 or
 ```
 ERROR: Failed building wheel for [package-name]
+
