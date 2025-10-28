@@ -1,19 +1,30 @@
 # --- Core app dependencies ---
-streamlit==1.50.0
+streamlit
 python-dotenv
-google-generativeai==0.8.5
+google-generativeai
 
 # --- NLP / Embeddings ---
-sentence-transformers==2.2.2
-transformers==4.30.2
-huggingface-hub==0.16.4
-torch==2.0.1
-faiss-cpu==1.7.4
+sentence-transformers
+faiss-cpu
 
 # --- Utilities ---
-PyMuPDF==1.24.4
+PyMuPDF
 numpy<2
 pandas
-protobuf==4.25.3
+protobuf
 tqdm
 typing-extensions
+```
+
+This removes all version pins and lets pip resolve compatible versions automatically.
+
+## To Debug Further:
+
+Can you click on **"Manage app"** in Streamlit Cloud and scroll through the logs to find the **actual error message**? It should show something like:
+```
+ERROR: Could not find a version that satisfies the requirement torch==2.0.1
+```
+
+or
+```
+ERROR: Failed building wheel for [package-name]
